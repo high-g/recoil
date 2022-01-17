@@ -1,11 +1,12 @@
 import React from 'react'
+import { RecoilRoot } from 'recoil'
 
 function App() {
   return (
-    <div>
+    <RecoilRoot>
       <p>test</p>
       <p>test</p>
-    </div>
+    </RecoilRoot>
   )
 }
 

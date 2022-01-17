@@ -1,6 +1,6 @@
 export enum AtomKeys {
-  ARTICLE_LIST_STATE = 'articleList',
-  SEARCH_WORD_STATE = 'searchList',
+  TEXT_STATE = 'textState',
+  TODO_STATE = 'todoState',
 }
 
 export enum SelectorKeys {}
