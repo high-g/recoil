@@ -1,11 +1,11 @@
 import React from 'react'
 import { RecoilRoot } from 'recoil'
+import CharacterCounter from './components/CharacterCounter'
 
-function App() {
+const App: React.FC = () => {
   return (
     <RecoilRoot>
-      <p>test</p>
-      <p>test</p>
+      <CharacterCounter />
     </RecoilRoot>
   )
 }
