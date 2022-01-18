@@ -3,4 +3,6 @@ export enum AtomKeys {
   TODO_STATE = 'todoState',
 }
 
-export enum SelectorKeys {}
+export enum SelectorKeys {
+  CHAR_COUNT_STATE = 'charCountState',
+}
