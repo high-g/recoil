@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRecoilState } from 'recoil'
-import { textState } from '../globalStates/atoms/textState'
+import { textState } from '../globalStates/atoms'
 
 const TextInput: React.FC = () => {
   const [text, setText] = useRecoilState(textState)
